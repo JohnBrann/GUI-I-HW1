@@ -1,0 +1,78 @@
+/*
+File: styles.css
+      This file handles the designs for my website
+GUI Assignment: Creating Your First Web Page
+                This webpage is an intro to all my plants in my room!
+John Brann, UMass Lowell Computer Science, john_brann@student.uml.edu
+Copyright (c) 2024 by John. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by JB on May 19, 2024 at 9:58 PM
+*/
+
+/* title */
+h1 { 
+    text-align: center; 
+    color: #333; 
+    font-size: 80px;
+
+}
+
+/* divider line */
+hr {
+    width: 80%; /* Set the width to 80% of the parent container */
+    border: none; /* Remove the default border */
+    height: 2px; 
+    background-color: #333; 
+}
+
+/* plant names */
+h2 {
+    text-align: center;
+    color: #205c2d;
+    font-size: 50px; 
+}
+
+/* plant description text */
+p {
+    text-align: center; 
+    color: #205c2d; 
+    font-size: 20px; 
+}
+
+/* adds border style to text */
+.bordered-text {
+    display: inline-block; /* makes sure it does not overlap onto picture */
+    background-color: #b8aa99; 
+    padding: 20px; 
+}
+
+/* centers images to screen */
+.center { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 50%; /* sets width of block to 50% of parent container */
+  
+}
+
+ /* dark grey background */
+.text-section{
+    background-color: #cfc3b3;
+    padding: 20px; /* adds padding around the content */
+    margin-bottom: 30px; /* adds pixels of space after the content */
+    text-align: center; 
+}
+
+/* formating for table header and table data*/
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* formating for table header*/
+th {
+    background-color: #04AA6D;
+    color: #333;
+    font-size: 25px;
+  }
