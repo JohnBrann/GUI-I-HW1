@@ -1,0 +1,100 @@
+<!--
+File: index.html
+GUI Assignment: Creating Your First Web Page
+                This webpage is an intro to all my plants in my room!
+John Brann, UMass Lowell Computer Science, john_brann@student.uml.edu
+Copyright (c) 2024 by John. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by JB on May 19, 2024 at 9:52 PM
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My Plant Tour</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+    <!-- page content -->
+        <header>
+            <h1>My Plants</h1> <!--Page Main Header-->
+        </header>
+        <hr> <!--hoizontal line-->
+        <main> <!--main page content-->
+            <section class="text-section"> <!--grouping together info about each plant in a section-->
+                <h2>Swedish Ivy</h2> <!--plant name followed by short description of plant-->
+                <p class="bordered-text">Also known as Plectranthus verticillatus, is a glossy, green plant with round leaves
+                    and smooth rigid edges.
+                </p>
+                <img src="css/images/SwedishIvy.jpg" alt="Swedish Ivy" class="center"> <!--image of corresponding plant with title and centering-->
+            </section>
+
+            <hr> <!--hoizontal line-->
+            
+            <!--same format above for my next 3 plants-->
+            <section class="text-section">
+                <h2>Golden Barrel Cactus</h2>
+                <p class="bordered-text">Also known as Echinocactus grusonii, is a short, round, spiky cactus.</p>
+                <img src="css/images/GoldenBarrelCactus.jpg" alt="Golden Barrel Cactus" class="center">
+            </section>
+
+            <hr> <!--hoizontal line-->
+
+            <section class="text-section">
+                <h2>Christmas Cactus</h2>
+                <p class="bordered-text">Also known as Schlumbergera, has matte green leaves with pink tips, and flowers pink flowers 
+                    in the wintertime.
+                </p>
+                <img src="css/images/ChristmasCactus.jpg" alt="Christmas Cactus" class="center">
+            </section class="text-section">
+
+            <hr> <!--hoizontal line-->
+
+            <section class="text-section">
+                <h2>Pothos</h2>
+                <p class="bordered-text">Also known as Epipremnum aureum, has thick, waxy, green, heart-shaped 
+                    leaves with a hint of yellow.
+                </p>
+                <img src="css/images/Pothos.jpg" alt="Pothos" class="center">
+            </section>
+
+            <hr> <!--hoizontal line-->
+
+            <table class="center"> <!--table holding information of my plants such as necessarry sunlight and watering timeline-->
+                <tr> <!--top row of my table displaying subject of each column-->
+                  <th>Plant Name</th>
+                  <th>Sunlight Type</th>
+                  <th>Water Schedule</th>
+                  <th>Additional Information</th>
+                </tr>
+                <tr> <!--each row displays the information for that plant-->
+                  <td>Swedish Ivy</td>
+                  <td>bright, indirect sunlight</td>
+                  <td>every 9 days</td>
+                  <td><a href="https://kenmatthewsgardencenter.com/2021/07/08/swedish-ivy-care/">Swedish Ivy</a></td> <!--clickable link taking you to additional specific resources-->
+                </tr>
+                <tr>
+                  <td>Golden Barrel Cactus</td>
+                  <td>bright, direct sunlight</td>
+                  <td>every 30 days</td>
+                  <td><a href="https://www.thespruce.com/grow-echinocactus-indoors-1902973">Golden Barrel Cactus</a></td>
+                </tr>
+                <tr>
+                    <td>Christmas Cactus</td>
+                    <td>medium, indirect sunlight</td>
+                    <td>every 14 days</td>
+                    <td><a href="https://www.thespruce.com/christmas-cactus-4176983">Christmas Cactus</a></td>
+                </tr>
+                <tr>
+                    <td>Pothos</td>
+                    <td>bright, indirect sunlight</td>
+                    <td>every 14 days</td>
+                    <td><a href="https://www.thespruce.com/pothos-an-easy-to-grow-houseplant-1403154">Pothos</a></td>
+                </tr>
+              </table>
+              <hr> <!--hoizontal line-->
+        </main>
+    </body>
+</html>
+
